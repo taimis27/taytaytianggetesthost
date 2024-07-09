@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Seller Registration - Tiangge Inc.</title>
+    <link rel="icon" type="image/jpeg" sizes="500x500" href="assets/img/logo.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body style="background: #ffffff;">
+    <!-- Start: Navbar Centered Links -->
+    <nav class="navbar navbar-light navbar-expand-md py-3" style="font-size: 18px;font-family: Poppins, sans-serif;">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span><img height="75px" src="assets/img/Logo%20(1).png"></span></a>
+            <h3 style="color: #2d3693;"><strong>Seller Centre</strong></h3><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-3"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-3">
+                <ul class="navbar-nav mx-auto"></ul><a class="btn btn-primary" role="button" style="background: #2d3693;margin-left: 5px;margin-right: 5px;border-style: none;" href="seller-login.html">LOG IN</a>
+                <button class="btn btn-primary disabled" type="button" style="background: #2d3693;margin-left: 5px;margin-right: 5px;border-style: none;" disabled="">REGISTER</button>
+            </div>
+        </div>
+    </nav><!-- End: Navbar Centered Links -->
+    <!-- Start: Login Form Basic -->
+    <section class="py-4 py-xl-5" style="font-family: Poppins, sans-serif;">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-8 col-xl-9 col-xxl-8 text-center mx-auto" style="width: 900px;">
+                    <h2 style="color: #2d3693;font-size: 38px;"><strong>Simulan ang Iyong Online Tiangge Ngayon!&nbsp;</strong></h2>
+                    <p>Register and open your online store for free.</p>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-md-8 col-lg-9 col-xl-8 col-xxl-8 text-center mx-auto" style="width: 750px;">
+                    <!-- Start: Business Textbox -->
+                    <form action="seller-registration.php" method="post" style="padding: 10px;">
+                        <div class="d-flex flex-row" style="width: auto;margin-bottom: 10px;">
+                            <p style="font-size: 30px;margin-bottom: 0px;margin-right: 10px;color: #2d3693;"><strong>Business Details</strong></p>
+                        </div>
+                        <div class="d-flex flex-row" style="width: auto;margin-bottom: 11px;margin-top: 5px;">
+                            <p style="font-size: 18px;margin-bottom: 11px;margin-right: 10px;margin-top: 5px;"><strong>Business Name:</strong></p><input type="text" style="height: 30px;width: 515px;font-size: 16px;border-width: 1px;margin-bottom: 11px;margin-top: 5px;padding-right: 5px;" placeholder="Enter your Business Name" name="business_name" required>
+                        </div>
+                        <div class="d-flex flex-row" style="width: auto;margin-bottom: 11px;margin-top: 5px;">
+                            <p style="font-size: 18px;margin-bottom: 11px;margin-right: 10px;margin-top: 5px;"><strong>E-mail:</strong></p><input type="email" style="height: 30px;width: 595px;font-size: 16px;border-width: 1px;margin-bottom: 11px;margin-top: 5px;padding-right: 5px;" placeholder="Enter your Business Email" name="email" required>
+                        </div>
+                        <div class="d-flex flex-row" style="width: auto;margin-bottom: 11px;margin-top: 5px;">
+                            <p style="font-size: 18px;margin-bottom: 11px;margin-right: 10px;margin-top: 5px;"><strong>Phone Number:</strong></p><input type="text" style="height: 30px;width: 520px;font-size: 16px;border-width: 1px;margin-bottom: 11px;margin-top: 5px;padding-right: 5px;" placeholder="Enter your Business Phone Number" name="phone_number" required>
+                        </div>
+                        <div class="d-flex flex-row" style="width: auto;margin-bottom: 11px;margin-top: 5px;">
+                            <p style="font-size: 18px;margin-bottom: 11px;margin-right: 10px;margin-top: 5px;"><strong>Password:</strong></p><input type="password" style="height: 30px;width: 565px;font-size: 16px;border-width: 1px;margin-bottom: 11px;margin-top: 5px;padding-right: 5px;" placeholder="Enter Password" name="password" required>
+                        </div>
+                        <div class="d-flex flex-row" style="width: auto;margin-bottom: 11px;margin-top: 5px;">
+                            <p style="font-size: 18px;margin-bottom: 11px;margin-right: 10px;margin-top: 5px;"><strong>Confirm Password:</strong></p><input type="password" style="height: 30px;width: 485px;font-size: 16px;border-width: 1px;margin-bottom: 11px;margin-top: 5px;padding-right: 5px;" placeholder="Confirm Password" name="confirm_password" required>
+                        </div>
+                        <div class="d-flex flex-row" style="width: auto;margin-bottom: 11px;margin-top: 5px;"><button class="btn btn-primary d-xl-flex justify-content-xl-center align-items-xl-center" role="button" style="width: 250px;background: #2d3693;height: 50px;" type="submit"><strong>Register</strong></button></div>
+                    </form><!-- End: Business Textbox -->
+                </div>
+            </div>
+        </div>
+    </section><!-- End: Login Form Basic -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
